@@ -150,7 +150,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         Drop = Color3.fromRGB(28, 28, 28),
         ScrollBar = Color3.fromRGB(255, 255, 255),
         NotiBackground = Color3.fromRGB(0, 0, 0),
-        Glow = Color3.fromRGB(255, 255, 255),
+        Glow = Color3.fromRGB(0, 0, 0),
         Logo = "rbxassetid://"
     }
 
