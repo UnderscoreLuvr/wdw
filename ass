@@ -142,7 +142,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
 
     local themes = {
         SchemaColor = Color3.fromRGB(255, 0, 200),
-        TextColor = Color3.fromRGB(255, 0, 0),
+        TextColor = Color3.fromRGB(255, 255, 255),
         Header = Color3.fromRGB(22, 22, 22),
         Container = Color3.fromRGB(34, 34, 34),
         Background = Color3.fromRGB(22, 22, 22),
