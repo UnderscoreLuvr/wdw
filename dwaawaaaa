@@ -128,7 +128,7 @@ function CFAHub:DraggingEnabled(frame, parent)
     end)
 end
 
-local GuiName = "CFAHubPremium2022"
+local GuiName = "HydroSploit X OrbitHub "
 
 function CFAHub:CreateWindow(title, gameName, intro)
     title = title or ""
