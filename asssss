@@ -128,11 +128,11 @@ function CFAHub:DraggingEnabled(frame, parent)
     end)
 end
 
-local GuiName = "HydroSploit X OrbitHub "
+local GuiName = "CFAHubPremium2022"
 
 function CFAHub:CreateWindow(title, gameName, intro)
-    title = title or ""
-    gameName = gameName or ""
+    title = title or "<font color=\"#1CB2F5\">CFA Hub Premium</font>"
+    gameName = gameName or "N/A"
 
     for _, v in pairs(CoreGui:GetChildren()) do
         if v:IsA("ScreenGui") and v.Name == GuiName then
@@ -141,17 +141,17 @@ function CFAHub:CreateWindow(title, gameName, intro)
     end
 
     local themes = {
-        SchemaColor = Color3.fromRGB(255, 0, 200),
+        SchemaColor = Color3.fromRGB(79, 195, 247),
         TextColor = Color3.fromRGB(255, 255, 255),
         Header = Color3.fromRGB(22, 22, 22),
         Container = Color3.fromRGB(34, 34, 34),
         Background = Color3.fromRGB(22, 22, 22),
         Slider = Color3.fromRGB(15, 15, 15),
         Drop = Color3.fromRGB(28, 28, 28),
-        ScrollBar = Color3.fromRGB(255, 255, 255),
+        ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
-        Glow = Color3.fromRGB(255, 0, 200),
-        Logo = "rbxassetid://"
+        Glow = Color3.fromRGB(79, 195, 247),
+        Logo = "rbxassetid://13214335436"
     }
 
     table.insert(CFAHub, title)
@@ -577,11 +577,11 @@ function CFAHub:CreateWindow(title, gameName, intro)
     Title.Parent = Header
     Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title.BackgroundTransparency = 1.000
-    Title.Position = UDim2.new(0.01, 0, 0, 0)
+    Title.Position = UDim2.new(0.0579494797, 0, 0, 0)
     Title.Size = UDim2.new(0, 625, 0, 29)
     Title.ZIndex = 2
     Title.Font = Enum.Font.SourceSansSemibold
-    Title.Text = title .. "" .. gameName
+    Title.Text = title .. " - " .. gameName
     Title.RichText = true
     Title.TextColor3 = themes.TextColor
     Objects[Title] = "TextColor"
@@ -2271,3 +2271,4 @@ function CFAHub:CreateWindow(title, gameName, intro)
 end
 
 return CFAHub
+
